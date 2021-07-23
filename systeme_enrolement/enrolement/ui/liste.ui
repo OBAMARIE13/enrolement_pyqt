@@ -19,7 +19,7 @@
   <widget class="QLabel" name="search">
    <property name="geometry">
     <rect>
-     <x>376</x>
+     <x>360</x>
      <y>90</y>
      <width>51</width>
      <height>41</height>
@@ -63,7 +63,7 @@ border: 5px solid gray;</string>
   <widget class="QLineEdit" name="search_label">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>100</x>
      <y>90</y>
      <width>261</width>
      <height>41</height>
@@ -78,6 +78,76 @@ border-bottom:1px solid rgb(171, 171, 171);
    </property>
    <property name="placeholderText">
     <string>Recherche</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>611</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>prenom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>lieu</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom_mere_2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>nom_pere_2</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>pays</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn_search">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>90</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius : 5px solid black;
+color : blue;
+font-size : 20px;
+border : none;
+background-color : white;</string>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
    </property>
   </widget>
  </widget>

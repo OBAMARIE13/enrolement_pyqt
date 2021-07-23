@@ -441,6 +441,9 @@ font-size :  20px;
      <height>20</height>
     </rect>
    </property>
+   <property name="placeholderText">
+    <string>00/00/0000</string>
+   </property>
   </widget>
   <widget class="QPushButton" name="btn_photo">
    <property name="geometry">
